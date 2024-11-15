@@ -1,0 +1,181 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.holisticKnowledgeCleaning.ontology" ],
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#Publication",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#Technique",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technique"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#Dimension",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dimension"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#KnowledgeGraph",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KnowledgeGraph"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#BackgroundKnowledge",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BackgroundKnowledge"
+    },
+    "id" : "10"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "12" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "1"
+  }, {
+    "instances" : 0,
+    "union" : [ "10", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#Error",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error"
+    },
+    "id" : "13"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#QualitySpecification",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QualitySpecification"
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#Approach",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Approach"
+    },
+    "id" : "12"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#hasDimension",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasDimension"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#hasQuality",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasQuality"
+    },
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#requires",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "requires"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#implements",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "implements"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.holisticKnowledgeCleaning.ontology#isPublished",
+    "baseIri" : "http://www.holisticKnowledgeCleaning.ontology",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "isPublished"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  } ]
+}
