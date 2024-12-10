@@ -1,1 +1,0 @@
-## Holistic Knowledge Cleaning (HKC)
