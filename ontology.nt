@@ -34,6 +34,12 @@
 <http://www.holisticKnowledgeCleaning.net#hasDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holisticKnowledgeCleaning.net#Dimension> .
 <http://www.holisticKnowledgeCleaning.net#hasDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Approaches and Techniques have different dimensions, i.e., characteristics. This property defines those dimensions."@en .
 # 
+# http://www.holisticKnowledgeCleaning.net#hasError
+<http://www.holisticKnowledgeCleaning.net#hasError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holisticKnowledgeCleaning.net#hasError> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#KnowledgeGraph> .
+<http://www.holisticKnowledgeCleaning.net#hasError> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holisticKnowledgeCleaning.net#Error> .
+<http://www.holisticKnowledgeCleaning.net#hasError> <http://www.w3.org/2000/01/rdf-schema#comment> "A knowledge graph can have certain types of errors. These errors need to be targeted by the cleaning process."@en .
+# 
 # http://www.holisticKnowledgeCleaning.net#hasQuality
 <http://www.holisticKnowledgeCleaning.net#hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.holisticKnowledgeCleaning.net#hasQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge> .
@@ -64,6 +70,12 @@
 <http://www.holisticKnowledgeCleaning.net#requires> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#Dimension> .
 <http://www.holisticKnowledgeCleaning.net#requires> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holisticKnowledgeCleaning.net#QualitySpecification> .
 <http://www.holisticKnowledgeCleaning.net#requires> <http://www.w3.org/2000/01/rdf-schema#comment> "The dimensions of approaches and techniques, determines certain characteristics of the cleaning process. This process is dependent on specific aspects of the used background knowledge or knowledge graph. These aspects are related to the quality of the used source."@en .
+# 
+# http://www.holisticKnowledgeCleaning.net#targets
+<http://www.holisticKnowledgeCleaning.net#targets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.holisticKnowledgeCleaning.net#targets> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#Dimension> .
+<http://www.holisticKnowledgeCleaning.net#targets> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.holisticKnowledgeCleaning.net#Error> .
+<http://www.holisticKnowledgeCleaning.net#targets> <http://www.w3.org/2000/01/rdf-schema#comment> "One of the dimensions of an approach or  technique is the exact type of error it procecces. Therefore a dimension such as \"TargetedError\" could use this property, to represent this focus."@en .
 # 
 # 
 # 

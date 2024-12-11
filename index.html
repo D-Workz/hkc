@@ -13,11 +13,11 @@
 <script type="module" src="resources/dark-mode-toggle.mjs"></script><div class="darkmode">
 	<dark-mode-toggle class="slider"></dark-mode-toggle>
 </div>
- <title>Holistic Knowledge Cleaning Ontology (HKCO) Documentation</title>
+ <title>Holistic Knowledge Cleaning Ontology</title>
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://www.holisticKnowledgeCleaning.net","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://www.holisticKnowledgeCleaning.net","name":"http://www.holisticKnowledgeCleaning.net", "headline":"Document describing the ontology http://www.holisticKnowledgeCleaning.net", "dateReleased":"Tue Dec 10 17:33:03 CET 2024"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://d-workz.github.io/hkc/","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://d-workz.github.io/hkc/","name":"https://d-workz.github.io/hkc/", "headline":"Document describing the ontology https://d-workz.github.io/hkc/", "dateReleased":"Wed Dec 11 18:23:27 CET 2024"}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -69,7 +69,7 @@ $(function(){
 
 <dl>
 <dt>Latest version:</dt>
-<dd><a href="http://www.holisticKnowledgeCleaning.net">http://www.holisticKnowledgeCleaning.net</a></dd>
+<dd><a href="https://d-workz.github.io/hkc/">https://d-workz.github.io/hkc/</a></dd>
 <dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
 </dd><!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --></dl>
 
@@ -83,7 +83,7 @@ $(function(){
 
 
     <p>
-        This ontology provides a <strong>structured semantic framework</strong> for selecting and applying knowledge cleaning approaches for cleaning <strong>Knowledge Graphs</strong>. It is called the holistic knowledge cleaning ontology. It defines key concepts, relationships, and dimensions relevant to knowledge cleaning, including:
+        This ontology provides a <strong>structured semantic framework</strong> for selecting and applying knowledge cleaning approaches for cleaning <strong>Knowledge Graphs</strong>. It defines key concepts, relationships, and dimensions relevant to knowledge cleaning, including:
     </p>
 
     <ul>
@@ -121,7 +121,7 @@ $(function(){
 
 </span>
 </div>
-<div id="toc"></div> 
+<div id="toc"></div>
 
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
@@ -194,12 +194,15 @@ By providing well-defined semantics for errors, approaches, techniques, quality 
 </span>
 
 
+<span class="markdown">
+This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
 <div id="ns" align="center">
 <table>
 <caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
 <tbody>
+<tr><td><b>HKCO</b></td><td>&lt;https://d-workz.github.io/hkc&gt;</td></tr>
 <tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://www.holisticKnowledgeCleaning.ontology#&gt;</td></tr>
 <tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl#&gt;</td></tr>
 <tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</td></tr>
@@ -223,78 +226,78 @@ This ontology has the following classes and properties.</span>
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     class="hlist">
    <li>
-      <a href="#ApplicationAlgorithm"
+      <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm"
          title="http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm">
          <span>Application Algorithm</span>
       </a>
    </li>
    <li>
-      <a href="#ApplicationCondition"
+      <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationCondition"
          title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition">
          <span>Application Condition</span>
       </a>
    </li>
    <li>
-      <a href="#ApplicationLogic"
+      <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationLogic"
          title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">
          <span>Application Logic</span>
       </a>
    </li>
    <li>
-      <a href="#ApplicationTask"
+      <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationTask"
          title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">
          <span>Application Task</span>
       </a>
    </li>
    <li>
-      <a href="#Approach"
+      <a href="#http://www.holisticKnowledgeCleaning.net#Approach"
          title="http://www.holisticKnowledgeCleaning.net#Approach">
          <span>Approach</span>
       </a>
    </li>
    <li>
-      <a href="#BackgroundKnowledge"
+      <a href="#http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge"
          title="http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge">
          <span>Background Knowledge</span>
       </a>
    </li>
    <li>
-      <a href="#ConditionalLogic"
+      <a href="#http://www.holisticKnowledgeCleaning.net#ConditionalLogic"
          title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">
          <span>Conditional Logic</span>
       </a>
    </li>
    <li>
-      <a href="#Dimension"
+      <a href="#http://www.holisticKnowledgeCleaning.net#Dimension"
          title="http://www.holisticKnowledgeCleaning.net#Dimension">
          <span>Dimension</span>
       </a>
    </li>
    <li>
-      <a href="#Error" title="http://www.holisticKnowledgeCleaning.net#Error">
+      <a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error">
          <span>Error</span>
       </a>
    </li>
    <li>
-      <a href="#KnowledgeGraph"
+      <a href="#http://www.holisticKnowledgeCleaning.net#KnowledgeGraph"
          title="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph">
          <span>Knowledge Graph</span>
       </a>
    </li>
    <li>
-      <a href="#Publication"
+      <a href="#http://www.holisticKnowledgeCleaning.net#Publication"
          title="http://www.holisticKnowledgeCleaning.net#Publication">
          <span>Publication</span>
       </a>
    </li>
    <li>
-      <a href="#QualitySpecification"
+      <a href="#http://www.holisticKnowledgeCleaning.net#QualitySpecification"
          title="http://www.holisticKnowledgeCleaning.net#QualitySpecification">
          <span>Quality Specification</span>
       </a>
    </li>
    <li>
-      <a href="#Technique"
+      <a href="#http://www.holisticKnowledgeCleaning.net#Technique"
          title="http://www.holisticKnowledgeCleaning.net#Technique">
          <span>Technique</span>
       </a>
@@ -303,100 +306,110 @@ This ontology has the following classes and properties.</span>
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     class="hlist">
    <li>
-      <a href="#appliesLogic"
+      <a href="#http://www.holisticKnowledgeCleaning.net#appliesLogic"
          title="http://www.holisticKnowledgeCleaning.net#appliesLogic">
          <span>applies Logic</span>
       </a>
    </li>
    <li>
-      <a href="#conditionalLogic"
+      <a href="#http://www.holisticKnowledgeCleaning.net#conditionalLogic"
          title="http://www.holisticKnowledgeCleaning.net#conditionalLogic">
          <span>conditional Logic</span>
       </a>
    </li>
    <li>
-      <a href="#followedLogic"
+      <a href="#http://www.holisticKnowledgeCleaning.net#followedLogic"
          title="http://www.holisticKnowledgeCleaning.net#followedLogic">
          <span>followed Logic</span>
       </a>
    </li>
    <li>
-      <a href="#hasDimension"
+      <a href="#http://www.holisticKnowledgeCleaning.net#hasDimension"
          title="http://www.holisticKnowledgeCleaning.net#hasDimension">
          <span>has Dimension</span>
       </a>
    </li>
    <li>
-      <a href="#hasQuality"
+      <a href="#http://www.holisticKnowledgeCleaning.net#hasError" title="http://www.holisticKnowledgeCleaning.net#hasError">
+         <span>has Error</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.holisticKnowledgeCleaning.net#hasQuality"
          title="http://www.holisticKnowledgeCleaning.net#hasQuality">
          <span>has Quality</span>
       </a>
    </li>
    <li>
-      <a href="#implements"
+      <a href="#http://www.holisticKnowledgeCleaning.net#implements"
          title="http://www.holisticKnowledgeCleaning.net#implements">
          <span>implements</span>
       </a>
    </li>
    <li>
-      <a href="#isPublished"
+      <a href="#http://www.holisticKnowledgeCleaning.net#isPublished"
          title="http://www.holisticKnowledgeCleaning.net#isPublished">
          <span>is Published</span>
       </a>
    </li>
    <li>
-      <a href="#performsTask"
+      <a href="#http://www.holisticKnowledgeCleaning.net#performsTask"
          title="http://www.holisticKnowledgeCleaning.net#performsTask">
          <span>performs Task</span>
       </a>
    </li>
    <li>
-      <a href="#requires"
+      <a href="#http://www.holisticKnowledgeCleaning.net#requires"
          title="http://www.holisticKnowledgeCleaning.net#requires">
          <span>requires</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.holisticKnowledgeCleaning.net#targets" title="http://www.holisticKnowledgeCleaning.net#targets">
+         <span>targets</span>
       </a>
    </li>
 </ul><h4>Data Properties</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     class="hlist">
    <li>
-      <a href="#errorNature"
+      <a href="#http://www.holisticKnowledgeCleaning.net#errorNature"
          title="http://www.holisticKnowledgeCleaning.net#errorNature">
          <span>error Nature</span>
       </a>
    </li>
    <li>
-      <a href="#errorSource"
+      <a href="#http://www.holisticKnowledgeCleaning.net#errorSource"
          title="http://www.holisticKnowledgeCleaning.net#errorSource">
          <span>error Source</span>
       </a>
    </li>
    <li>
-      <a href="#errorType"
+      <a href="#http://www.holisticKnowledgeCleaning.net#errorType"
          title="http://www.holisticKnowledgeCleaning.net#errorType">
          <span>error Type</span>
       </a>
    </li>
    <li>
-      <a href="#logicCondition"
+      <a href="#http://www.holisticKnowledgeCleaning.net#logicCondition"
          title="http://www.holisticKnowledgeCleaning.net#logicCondition">
          <span>logic Condition</span>
       </a>
    </li>
    <li>
-      <a href="#publicationYear"
+      <a href="#http://www.holisticKnowledgeCleaning.net#publicationYear"
          title="http://www.holisticKnowledgeCleaning.net#publicationYear">
          <span>publication Year</span>
       </a>
    </li>
    <li>
-      <a href="#taskInput"
+      <a href="#http://www.holisticKnowledgeCleaning.net#taskInput"
          title="http://www.holisticKnowledgeCleaning.net#taskInput">
          <span>task Input</span>
       </a>
    </li>
    <li>
-      <a href="#taskOutput"
+      <a href="#http://www.holisticKnowledgeCleaning.net#taskOutput"
          title="http://www.holisticKnowledgeCleaning.net#taskOutput">
          <span>task Output</span>
       </a>
@@ -419,21 +432,21 @@ This section provides details for each class and property defined by HolisticKno
 <div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
  <h3 id="classes-headline" class="list">Classes</h3>
  <ul class="hlist">
-  <li><a href="#ApplicationAlgorithm" title="http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm"> <span>Application Algorithm</span> </a></li>
-  <li><a href="#ApplicationCondition" title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition"> <span>Application Condition</span> </a></li>
-  <li><a href="#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic"> <span>Application Logic</span> </a></li>
-  <li><a href="#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask"> <span>Application Task</span> </a></li>
-  <li><a href="#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach"> <span>Approach</span> </a></li>
-  <li><a href="#BackgroundKnowledge" title="http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge"> <span>Background Knowledge</span> </a></li>
-  <li><a href="#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic"> <span>Conditional Logic</span> </a></li>
-  <li><a href="#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension"> <span>Dimension</span> </a></li>
-  <li><a href="#Error" title="http://www.holisticKnowledgeCleaning.net#Error"> <span>Error</span> </a></li>
-  <li><a href="#KnowledgeGraph" title="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph"> <span>Knowledge Graph</span> </a></li>
-  <li><a href="#Publication" title="http://www.holisticKnowledgeCleaning.net#Publication"> <span>Publication</span> </a></li>
-  <li><a href="#QualitySpecification" title="http://www.holisticKnowledgeCleaning.net#QualitySpecification"> <span>Quality Specification</span> </a></li>
-  <li><a href="#Technique" title="http://www.holisticKnowledgeCleaning.net#Technique"> <span>Technique</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm" title="http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm"> <span>Application Algorithm</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#ApplicationCondition" title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition"> <span>Application Condition</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic"> <span>Application Logic</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask"> <span>Application Task</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach"> <span>Approach</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge" title="http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge"> <span>Background Knowledge</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic"> <span>Conditional Logic</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension"> <span>Dimension</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error"> <span>Error</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#KnowledgeGraph" title="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph"> <span>Knowledge Graph</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#Publication" title="http://www.holisticKnowledgeCleaning.net#Publication"> <span>Publication</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#QualitySpecification" title="http://www.holisticKnowledgeCleaning.net#QualitySpecification"> <span>Quality Specification</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#Technique" title="http://www.holisticKnowledgeCleaning.net#Technique"> <span>Technique</span> </a></li>
  </ul>
- <div class="entity" id="ApplicationAlgorithm">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm">
   <h3>Application Algorithm<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm</p>
   <div class="comment">
@@ -444,11 +457,11 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#appliesLogic" title="http://www.holisticKnowledgeCleaning.net#appliesLogic">applies Logic</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#appliesLogic" title="http://www.holisticKnowledgeCleaning.net#appliesLogic">applies Logic</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="ApplicationCondition">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#ApplicationCondition">
   <h3>Application Condition<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#ApplicationCondition</p>
   <div class="comment">
@@ -459,17 +472,17 @@ This section provides details for each class and property defined by HolisticKno
     has super-classes
    </dt>
    <dd>
-    <a href="#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
    </dd>
    <dt>
     is in domain of
    </dt>
    <dd>
-    <a href="#conditionalLogic" title="http://www.holisticKnowledgeCleaning.net#conditionalLogic">conditional Logic</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#conditionalLogic" title="http://www.holisticKnowledgeCleaning.net#conditionalLogic">conditional Logic</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="ApplicationLogic">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">
   <h3>Application Logic<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#ApplicationLogic</p>
   <div class="comment">
@@ -480,23 +493,23 @@ This section provides details for each class and property defined by HolisticKno
     has sub-classes
    </dt>
    <dd>
-    <a href="#ApplicationCondition" title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition">Application Condition</a> <sup class="type-c" title="class">c</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationCondition" title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition">Application Condition</a> <sup class="type-c" title="class">c</sup>
    </dd>
    <dt>
     is in domain of
    </dt>
    <dd>
-    <a href="#performsTask" title="http://www.holisticKnowledgeCleaning.net#performsTask">performs Task</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#performsTask" title="http://www.holisticKnowledgeCleaning.net#performsTask">performs Task</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#appliesLogic" title="http://www.holisticKnowledgeCleaning.net#appliesLogic">applies Logic</a> <sup class="type-op" title="object property">op</sup>, <a href="#followedLogic" title="http://www.holisticKnowledgeCleaning.net#followedLogic">followed Logic</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#appliesLogic" title="http://www.holisticKnowledgeCleaning.net#appliesLogic">applies Logic</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#followedLogic" title="http://www.holisticKnowledgeCleaning.net#followedLogic">followed Logic</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="ApplicationTask">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#ApplicationTask">
   <h3>Application Task<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#ApplicationTask</p>
   <div class="comment">
@@ -507,17 +520,17 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#taskInput" title="http://www.holisticKnowledgeCleaning.net#taskInput">task Input</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#taskOutput" title="http://www.holisticKnowledgeCleaning.net#taskOutput">task Output</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#taskInput" title="http://www.holisticKnowledgeCleaning.net#taskInput">task Input</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#taskOutput" title="http://www.holisticKnowledgeCleaning.net#taskOutput">task Output</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#performsTask" title="http://www.holisticKnowledgeCleaning.net#performsTask">performs Task</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#performsTask" title="http://www.holisticKnowledgeCleaning.net#performsTask">performs Task</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="Approach">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#Approach">
   <h3>Approach<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#Approach</p>
   <div class="comment">
@@ -528,11 +541,11 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension">has Dimension</a> <sup class="type-op" title="object property">op</sup>, <a href="#implements" title="http://www.holisticKnowledgeCleaning.net#implements">implements</a> <sup class="type-op" title="object property">op</sup>, <a href="#isPublished" title="http://www.holisticKnowledgeCleaning.net#isPublished">is Published</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension">has Dimension</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#implements" title="http://www.holisticKnowledgeCleaning.net#implements">implements</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#isPublished" title="http://www.holisticKnowledgeCleaning.net#isPublished">is Published</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="BackgroundKnowledge">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge">
   <h3>Background Knowledge<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge</p>
   <div class="comment">
@@ -543,11 +556,11 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality">has Quality</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality">has Quality</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="ConditionalLogic">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">
   <h3>Conditional Logic<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#ConditionalLogic</p>
   <div class="comment">
@@ -558,17 +571,17 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#followedLogic" title="http://www.holisticKnowledgeCleaning.net#followedLogic">followed Logic</a> <sup class="type-op" title="object property">op</sup>, <a href="#logicCondition" title="http://www.holisticKnowledgeCleaning.net#logicCondition">logic Condition</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#followedLogic" title="http://www.holisticKnowledgeCleaning.net#followedLogic">followed Logic</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#logicCondition" title="http://www.holisticKnowledgeCleaning.net#logicCondition">logic Condition</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#conditionalLogic" title="http://www.holisticKnowledgeCleaning.net#conditionalLogic">conditional Logic</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#conditionalLogic" title="http://www.holisticKnowledgeCleaning.net#conditionalLogic">conditional Logic</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="Dimension">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#Dimension">
   <h3>Dimension<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#Dimension</p>
   <div class="comment">
@@ -579,17 +592,17 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#requires" title="http://www.holisticKnowledgeCleaning.net#requires">requires</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#requires" title="http://www.holisticKnowledgeCleaning.net#requires">requires</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#targets" title="http://www.holisticKnowledgeCleaning.net#targets">targets</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension">has Dimension</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension">has Dimension</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="Error">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#Error">
   <h3>Error<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#Error</p>
   <div class="comment">
@@ -600,11 +613,17 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#errorNature" title="http://www.holisticKnowledgeCleaning.net#errorNature">error Nature</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#errorSource" title="http://www.holisticKnowledgeCleaning.net#errorSource">error Source</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#errorType" title="http://www.holisticKnowledgeCleaning.net#errorType">error Type</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#errorNature" title="http://www.holisticKnowledgeCleaning.net#errorNature">error Nature</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#errorSource" title="http://www.holisticKnowledgeCleaning.net#errorSource">error Source</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#errorType" title="http://www.holisticKnowledgeCleaning.net#errorType">error Type</a> <sup class="type-dp" title="data property">dp</sup>
+   </dd>
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasError" title="http://www.holisticKnowledgeCleaning.net#hasError">has Error</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#targets" title="http://www.holisticKnowledgeCleaning.net#targets">targets</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="KnowledgeGraph">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph">
   <h3>Knowledge Graph<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#KnowledgeGraph</p>
   <div class="comment">
@@ -615,11 +634,11 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality">has Quality</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasError" title="http://www.holisticKnowledgeCleaning.net#hasError">has Error</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality">has Quality</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="Publication">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#Publication">
   <h3>Publication<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#Publication</p>
   <div class="comment">
@@ -630,17 +649,17 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#publicationYear" title="http://www.holisticKnowledgeCleaning.net#publicationYear">publication Year</a> <sup class="type-dp" title="data property">dp</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#publicationYear" title="http://www.holisticKnowledgeCleaning.net#publicationYear">publication Year</a> <sup class="type-dp" title="data property">dp</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#isPublished" title="http://www.holisticKnowledgeCleaning.net#isPublished">is Published</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#isPublished" title="http://www.holisticKnowledgeCleaning.net#isPublished">is Published</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="QualitySpecification">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#QualitySpecification">
   <h3>Quality Specification<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#QualitySpecification</p>
   <div class="comment">
@@ -651,11 +670,11 @@ This section provides details for each class and property defined by HolisticKno
     is in range of
    </dt>
    <dd>
-    <a href="#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality">has Quality</a> <sup class="type-op" title="object property">op</sup>, <a href="#requires" title="http://www.holisticKnowledgeCleaning.net#requires">requires</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality">has Quality</a> <sup class="type-op" title="object property">op</sup>, <a href="#http://www.holisticKnowledgeCleaning.net#requires" title="http://www.holisticKnowledgeCleaning.net#requires">requires</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
- <div class="entity" id="Technique">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#Technique">
   <h3>Technique<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#Technique</p>
   <div class="comment">
@@ -666,30 +685,32 @@ This section provides details for each class and property defined by HolisticKno
     is in domain of
    </dt>
    <dd>
-    <a href="#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension">has Dimension</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension">has Dimension</a> <sup class="type-op" title="object property">op</sup>
    </dd>
    <dt>
     is in range of
    </dt>
    <dd>
-    <a href="#implements" title="http://www.holisticKnowledgeCleaning.net#implements">implements</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#http://www.holisticKnowledgeCleaning.net#implements" title="http://www.holisticKnowledgeCleaning.net#implements">implements</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
  <h3 id="properties" class="list">Object Properties</h3>
  <ul class="hlist">
-  <li><a href="#appliesLogic" title="http://www.holisticKnowledgeCleaning.net#appliesLogic"> <span>applies Logic</span> </a></li>
-  <li><a href="#conditionalLogic" title="http://www.holisticKnowledgeCleaning.net#conditionalLogic"> <span>conditional Logic</span> </a></li>
-  <li><a href="#followedLogic" title="http://www.holisticKnowledgeCleaning.net#followedLogic"> <span>followed Logic</span> </a></li>
-  <li><a href="#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension"> <span>has Dimension</span> </a></li>
-  <li><a href="#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality"> <span>has Quality</span> </a></li>
-  <li><a href="#implements" title="http://www.holisticKnowledgeCleaning.net#implements"> <span>implements</span> </a></li>
-  <li><a href="#isPublished" title="http://www.holisticKnowledgeCleaning.net#isPublished"> <span>is Published</span> </a></li>
-  <li><a href="#performsTask" title="http://www.holisticKnowledgeCleaning.net#performsTask"> <span>performs Task</span> </a></li>
-  <li><a href="#requires" title="http://www.holisticKnowledgeCleaning.net#requires"> <span>requires</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#appliesLogic" title="http://www.holisticKnowledgeCleaning.net#appliesLogic"> <span>applies Logic</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#conditionalLogic" title="http://www.holisticKnowledgeCleaning.net#conditionalLogic"> <span>conditional Logic</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#followedLogic" title="http://www.holisticKnowledgeCleaning.net#followedLogic"> <span>followed Logic</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#hasDimension" title="http://www.holisticKnowledgeCleaning.net#hasDimension"> <span>has Dimension</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#hasError" title="http://www.holisticKnowledgeCleaning.net#hasError"> <span>has Error</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#hasQuality" title="http://www.holisticKnowledgeCleaning.net#hasQuality"> <span>has Quality</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#implements" title="http://www.holisticKnowledgeCleaning.net#implements"> <span>implements</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#isPublished" title="http://www.holisticKnowledgeCleaning.net#isPublished"> <span>is Published</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#performsTask" title="http://www.holisticKnowledgeCleaning.net#performsTask"> <span>performs Task</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#requires" title="http://www.holisticKnowledgeCleaning.net#requires"> <span>requires</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#targets" title="http://www.holisticKnowledgeCleaning.net#targets"> <span>targets</span> </a></li>
  </ul>
- <div class="entity" id="appliesLogic">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#appliesLogic">
   <h3>applies Logic<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#appliesLogic</p>
   <div class="comment">
@@ -701,18 +722,18 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ApplicationAlgorithm" title="http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm">Application Algorithm</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm" title="http://www.holisticKnowledgeCleaning.net#ApplicationAlgorithm">Application Algorithm</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="conditionalLogic">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#conditionalLogic">
   <h3>conditional Logic<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#conditionalLogic</p>
   <div class="comment">
@@ -724,18 +745,18 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ApplicationCondition" title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition">Application Condition</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationCondition" title="http://www.holisticKnowledgeCleaning.net#ApplicationCondition">Application Condition</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">Conditional Logic</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">Conditional Logic</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="followedLogic">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#followedLogic">
   <h3>followed Logic<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#followedLogic</p>
   <div class="comment">
@@ -747,18 +768,18 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">Conditional Logic</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">Conditional Logic</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="hasDimension">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#hasDimension">
   <h3>has Dimension<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#hasDimension</p>
   <div class="comment">
@@ -770,21 +791,44 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach">Approach</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach">Approach</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dd>
-     <a href="#Technique" title="http://www.holisticKnowledgeCleaning.net#Technique">Technique</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Technique" title="http://www.holisticKnowledgeCleaning.net#Technique">Technique</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension">Dimension</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension">Dimension</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="hasQuality">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#hasError">
+  <h3>has Error<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#hasError</p>
+  <div class="comment">
+   <span class="markdown">A knowledge graph can have certain types of errors. These errors need to be targeted by the cleaning process.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#http://www.holisticKnowledgeCleaning.net#KnowledgeGraph" title="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph">Knowledge Graph</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#hasQuality">
   <h3>has Quality<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#hasQuality</p>
   <div class="comment">
@@ -796,21 +840,21 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#BackgroundKnowledge" title="http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge">Background Knowledge</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge" title="http://www.holisticKnowledgeCleaning.net#BackgroundKnowledge">Background Knowledge</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dd>
-     <a href="#KnowledgeGraph" title="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph">Knowledge Graph</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#KnowledgeGraph" title="http://www.holisticKnowledgeCleaning.net#KnowledgeGraph">Knowledge Graph</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#QualitySpecification" title="http://www.holisticKnowledgeCleaning.net#QualitySpecification">Quality Specification</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#QualitySpecification" title="http://www.holisticKnowledgeCleaning.net#QualitySpecification">Quality Specification</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="implements">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#implements">
   <h3>implements<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#implements</p>
   <div class="comment">
@@ -822,18 +866,18 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach">Approach</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach">Approach</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#Technique" title="http://www.holisticKnowledgeCleaning.net#Technique">Technique</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Technique" title="http://www.holisticKnowledgeCleaning.net#Technique">Technique</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="isPublished">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#isPublished">
   <h3>is Published<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#isPublished</p>
   <div class="comment">
@@ -845,18 +889,18 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach">Approach</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Approach" title="http://www.holisticKnowledgeCleaning.net#Approach">Approach</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#Publication" title="http://www.holisticKnowledgeCleaning.net#Publication">Publication</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Publication" title="http://www.holisticKnowledgeCleaning.net#Publication">Publication</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="performsTask">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#performsTask">
   <h3>performs Task<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#performsTask</p>
   <div class="comment">
@@ -868,18 +912,18 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationLogic" title="http://www.holisticKnowledgeCleaning.net#ApplicationLogic">Application Logic</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">Application Task</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">Application Task</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
  </div>
- <div class="entity" id="requires">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#requires">
   <h3>requires<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#requires</p>
   <div class="comment">
@@ -891,13 +935,36 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension">Dimension</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension">Dimension</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
     </dt>
     <dd>
-     <a href="#QualitySpecification" title="http://www.holisticKnowledgeCleaning.net#QualitySpecification">Quality Specification</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#QualitySpecification" title="http://www.holisticKnowledgeCleaning.net#QualitySpecification">Quality Specification</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#targets">
+  <h3>targets<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#targets</p>
+  <div class="comment">
+   <span class="markdown">One of the dimensions of an approach or technique is the exact type of error it procecces. Therefore a dimension such as "TargetedError" could use this property, to represent this focus.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Dimension" title="http://www.holisticKnowledgeCleaning.net#Dimension">Dimension</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
     </dd>
    </dl>
   </div>
@@ -905,15 +972,15 @@ This section provides details for each class and property defined by HolisticKno
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
  <h3 id="dataproperties-headline" class="list">Data Properties</h3>
  <ul class="hlist">
-  <li><a href="#errorNature" title="http://www.holisticKnowledgeCleaning.net#errorNature"> <span>error Nature</span> </a></li>
-  <li><a href="#errorSource" title="http://www.holisticKnowledgeCleaning.net#errorSource"> <span>error Source</span> </a></li>
-  <li><a href="#errorType" title="http://www.holisticKnowledgeCleaning.net#errorType"> <span>error Type</span> </a></li>
-  <li><a href="#logicCondition" title="http://www.holisticKnowledgeCleaning.net#logicCondition"> <span>logic Condition</span> </a></li>
-  <li><a href="#publicationYear" title="http://www.holisticKnowledgeCleaning.net#publicationYear"> <span>publication Year</span> </a></li>
-  <li><a href="#taskInput" title="http://www.holisticKnowledgeCleaning.net#taskInput"> <span>task Input</span> </a></li>
-  <li><a href="#taskOutput" title="http://www.holisticKnowledgeCleaning.net#taskOutput"> <span>task Output</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#errorNature" title="http://www.holisticKnowledgeCleaning.net#errorNature"> <span>error Nature</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#errorSource" title="http://www.holisticKnowledgeCleaning.net#errorSource"> <span>error Source</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#errorType" title="http://www.holisticKnowledgeCleaning.net#errorType"> <span>error Type</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#logicCondition" title="http://www.holisticKnowledgeCleaning.net#logicCondition"> <span>logic Condition</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#publicationYear" title="http://www.holisticKnowledgeCleaning.net#publicationYear"> <span>publication Year</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#taskInput" title="http://www.holisticKnowledgeCleaning.net#taskInput"> <span>task Input</span> </a></li>
+  <li><a href="#http://www.holisticKnowledgeCleaning.net#taskOutput" title="http://www.holisticKnowledgeCleaning.net#taskOutput"> <span>task Output</span> </a></li>
  </ul>
- <div class="entity" id="errorNature">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#errorNature">
   <h3>error Nature<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#errorNature</p>
   <div class="comment">
@@ -925,7 +992,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -936,7 +1003,7 @@ This section provides details for each class and property defined by HolisticKno
    </dl>
   </div>
  </div>
- <div class="entity" id="errorSource">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#errorSource">
   <h3>error Source<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#errorSource</p>
   <div class="comment">
@@ -948,7 +1015,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -959,7 +1026,7 @@ This section provides details for each class and property defined by HolisticKno
    </dl>
   </div>
  </div>
- <div class="entity" id="errorType">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#errorType">
   <h3>error Type<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#errorType</p>
   <div class="comment">
@@ -971,7 +1038,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Error" title="http://www.holisticKnowledgeCleaning.net#Error">Error</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -982,7 +1049,7 @@ This section provides details for each class and property defined by HolisticKno
    </dl>
   </div>
  </div>
- <div class="entity" id="logicCondition">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#logicCondition">
   <h3>logic Condition<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#logicCondition</p>
   <div class="comment">
@@ -994,7 +1061,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">Conditional Logic</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ConditionalLogic" title="http://www.holisticKnowledgeCleaning.net#ConditionalLogic">Conditional Logic</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -1005,7 +1072,7 @@ This section provides details for each class and property defined by HolisticKno
    </dl>
   </div>
  </div>
- <div class="entity" id="publicationYear">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#publicationYear">
   <h3>publication Year<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#publicationYear</p>
   <div class="comment">
@@ -1017,7 +1084,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#Publication" title="http://www.holisticKnowledgeCleaning.net#Publication">Publication</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#Publication" title="http://www.holisticKnowledgeCleaning.net#Publication">Publication</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -1028,7 +1095,7 @@ This section provides details for each class and property defined by HolisticKno
    </dl>
   </div>
  </div>
- <div class="entity" id="taskInput">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#taskInput">
   <h3>task Input<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#taskInput</p>
   <div class="comment">
@@ -1040,7 +1107,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">Application Task</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">Application Task</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range
@@ -1051,7 +1118,7 @@ This section provides details for each class and property defined by HolisticKno
    </dl>
   </div>
  </div>
- <div class="entity" id="taskOutput">
+ <div class="entity" id="http://www.holisticKnowledgeCleaning.net#taskOutput">
   <h3>task Output<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.holisticKnowledgeCleaning.net#taskOutput</p>
   <div class="comment">
@@ -1063,7 +1130,7 @@ This section provides details for each class and property defined by HolisticKno
      has domain
     </dt>
     <dd>
-     <a href="#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">Application Task</a> <sup class="type-c" title="class">c</sup>
+     <a href="#http://www.holisticKnowledgeCleaning.net#ApplicationTask" title="http://www.holisticKnowledgeCleaning.net#ApplicationTask">Application Task</a> <sup class="type-c" title="class">c</sup>
     </dd>
     <dt>
      has range

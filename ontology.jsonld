@@ -193,6 +193,19 @@
     "@id" : "http://www.holisticKnowledgeCleaning.net#Dimension"
   } ]
 }, {
+  "@id" : "http://www.holisticKnowledgeCleaning.net#hasError",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A knowledge graph can have certain types of errors. These errors need to be targeted by the cleaning process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.holisticKnowledgeCleaning.net#KnowledgeGraph"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.holisticKnowledgeCleaning.net#Error"
+  } ]
+}, {
   "@id" : "http://www.holisticKnowledgeCleaning.net#hasQuality",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -284,6 +297,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.holisticKnowledgeCleaning.net#QualitySpecification"
+  } ]
+}, {
+  "@id" : "http://www.holisticKnowledgeCleaning.net#targets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "One of the dimensions of an approach or  technique is the exact type of error it procecces. Therefore a dimension such as \"TargetedError\" could use this property, to represent this focus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.holisticKnowledgeCleaning.net#Dimension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.holisticKnowledgeCleaning.net#Error"
   } ]
 }, {
   "@id" : "http://www.holisticKnowledgeCleaning.net#taskInput",
