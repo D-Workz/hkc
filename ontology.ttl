@@ -119,11 +119,26 @@ The ontology proviedes means to select approaches for a custom cleaning process,
            rdfs:comment "The error type is a specific error in an error source, caused by a certain type of error nature. For example, an instance assertion might have a syntatically wrong instance identifier or a syntatically wrong type name."@en .
 
 
+###  http://www.holisticKnowledgeCleaning.net#implementationSource
+:implementationSource rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Publication ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "The implementation source of a publication, for example, a github repository."@en ;
+                      rdfs:label "implementationSource"@en .
+
+
 ###  http://www.holisticKnowledgeCleaning.net#logicCondition
 :logicCondition rdf:type owl:DatatypeProperty ;
                 rdfs:domain :ConditionalLogic ;
                 rdfs:range xsd:string ;
                 rdfs:comment "A logic Condition that must be fulfilled for the next logic step to be executed."@en .
+
+
+###  http://www.holisticKnowledgeCleaning.net#publicationCitation
+:publicationCitation rdf:type owl:DatatypeProperty ;
+                     rdfs:domain :Publication ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "The publcation Citation, identifies a certain publication. The reommended format is APA."@en .
 
 
 ###  http://www.holisticKnowledgeCleaning.net#publicationYear

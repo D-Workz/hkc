@@ -104,11 +104,24 @@
 <http://www.holisticKnowledgeCleaning.net#errorType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.holisticKnowledgeCleaning.net#errorType> <http://www.w3.org/2000/01/rdf-schema#comment> "The error type is a specific error in an error source, caused by a certain type of error nature. For example, an instance assertion might have a syntatically wrong instance identifier or a syntatically wrong type name."@en .
 # 
+# http://www.holisticKnowledgeCleaning.net#implementationSource
+<http://www.holisticKnowledgeCleaning.net#implementationSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.holisticKnowledgeCleaning.net#implementationSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#Publication> .
+<http://www.holisticKnowledgeCleaning.net#implementationSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.holisticKnowledgeCleaning.net#implementationSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The implementation source of a publication, for example, a github repository."@en .
+<http://www.holisticKnowledgeCleaning.net#implementationSource> <http://www.w3.org/2000/01/rdf-schema#label> "implementationSource"@en .
+# 
 # http://www.holisticKnowledgeCleaning.net#logicCondition
 <http://www.holisticKnowledgeCleaning.net#logicCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://www.holisticKnowledgeCleaning.net#logicCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#ConditionalLogic> .
 <http://www.holisticKnowledgeCleaning.net#logicCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.holisticKnowledgeCleaning.net#logicCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "A logic Condition that must be fulfilled for the next logic step to be executed."@en .
+# 
+# http://www.holisticKnowledgeCleaning.net#publicationCitation
+<http://www.holisticKnowledgeCleaning.net#publicationCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.holisticKnowledgeCleaning.net#publicationCitation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.holisticKnowledgeCleaning.net#Publication> .
+<http://www.holisticKnowledgeCleaning.net#publicationCitation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.holisticKnowledgeCleaning.net#publicationCitation> <http://www.w3.org/2000/01/rdf-schema#comment> "The publcation Citation, identifies a certain publication. The reommended format is APA."@en .
 # 
 # http://www.holisticKnowledgeCleaning.net#publicationYear
 <http://www.holisticKnowledgeCleaning.net#publicationYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

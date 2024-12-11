@@ -194,6 +194,18 @@ The ontology proviedes means to select approaches for a custom cleaning process,
     
 
 
+    <!-- http://www.holisticKnowledgeCleaning.net#implementationSource -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.holisticKnowledgeCleaning.net#implementationSource">
+        <rdfs:domain rdf:resource="http://www.holisticKnowledgeCleaning.net#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The implementation source of a publication, for example, a github repository.</rdfs:comment>
+        <rdfs:label xml:lang="en">implementationSource</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.holisticKnowledgeCleaning.net#logicCondition -->
 
 
@@ -201,6 +213,17 @@ The ontology proviedes means to select approaches for a custom cleaning process,
         <rdfs:domain rdf:resource="http://www.holisticKnowledgeCleaning.net#ConditionalLogic"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">A logic Condition that must be fulfilled for the next logic step to be executed.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.holisticKnowledgeCleaning.net#publicationCitation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.holisticKnowledgeCleaning.net#publicationCitation">
+        <rdfs:domain rdf:resource="http://www.holisticKnowledgeCleaning.net#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The publcation Citation, identifies a certain publication. The reommended format is APA.</rdfs:comment>
     </owl:DatatypeProperty>
     
 

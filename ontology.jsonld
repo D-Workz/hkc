@@ -221,6 +221,23 @@
     "@id" : "http://www.holisticKnowledgeCleaning.net#QualitySpecification"
   } ]
 }, {
+  "@id" : "http://www.holisticKnowledgeCleaning.net#implementationSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The implementation source of a publication, for example, a github repository."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.holisticKnowledgeCleaning.net#Publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "implementationSource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
   "@id" : "http://www.holisticKnowledgeCleaning.net#implements",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -271,6 +288,19 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.holisticKnowledgeCleaning.net#ApplicationTask"
+  } ]
+}, {
+  "@id" : "http://www.holisticKnowledgeCleaning.net#publicationCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The publcation Citation, identifies a certain publication. The reommended format is APA."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.holisticKnowledgeCleaning.net#Publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "http://www.holisticKnowledgeCleaning.net#publicationYear",
