@@ -4,5 +4,5 @@
 @prefix : <> .
 <..\index-en.html> a prov:Entity;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <http://www.holisticKnowledgeCleaning.net>;
+	 prov:specializationOf <https://d-workz.github.io/hkc/>;
 .
