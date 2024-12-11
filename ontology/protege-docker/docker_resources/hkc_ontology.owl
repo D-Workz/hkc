@@ -46,6 +46,13 @@ The ontology proviedes means to select approaches for a custom cleaning process,
 	rdfs:range <http://www.holisticKnowledgeCleaning.net#Dimension> ;
 	rdfs:comment "Approaches and Techniques have different dimensions, i.e., characteristics. This property defines those dimensions."@en .
 # 
+# http://www.holisticKnowledgeCleaning.net#hasError
+
+<http://www.holisticKnowledgeCleaning.net#hasError> a owl:ObjectProperty ;
+	rdfs:domain <http://www.holisticKnowledgeCleaning.net#KnowledgeGraph> ;
+	rdfs:range <http://www.holisticKnowledgeCleaning.net#Error> ;
+	rdfs:comment "A knowledge graph can have certain types of errors. These errors need to be targeted by the cleaning process."@en .
+# 
 # http://www.holisticKnowledgeCleaning.net#hasQuality
 
 <http://www.holisticKnowledgeCleaning.net#hasQuality> a owl:ObjectProperty ;
@@ -80,6 +87,13 @@ The ontology proviedes means to select approaches for a custom cleaning process,
 	rdfs:domain <http://www.holisticKnowledgeCleaning.net#Dimension> ;
 	rdfs:range <http://www.holisticKnowledgeCleaning.net#QualitySpecification> ;
 	rdfs:comment "The dimensions of approaches and techniques, determines certain characteristics of the cleaning process. This process is dependent on specific aspects of the used background knowledge or knowledge graph. These aspects are related to the quality of the used source."@en .
+# 
+# http://www.holisticKnowledgeCleaning.net#targets
+
+<http://www.holisticKnowledgeCleaning.net#targets> a owl:ObjectProperty ;
+	rdfs:domain <http://www.holisticKnowledgeCleaning.net#Dimension> ;
+	rdfs:range <http://www.holisticKnowledgeCleaning.net#Error> ;
+	rdfs:comment "One of the dimensions of an approach or  technique is the exact type of error it procecces. Therefore a dimension such as \"TargetedError\" could use this property, to represent this focus."@en .
 # 
 # 
 # 
